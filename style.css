@@ -1,0 +1,438 @@
+body{
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    color: #252525;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+p, button {
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+}
+
+/********* Navigation **************/
+nav#navigation {
+    padding: 20px 10px;
+    background-color: white;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.04);
+}
+
+ul.menu-list {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+}
+ul.menu-list li a {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 16px;
+    word-wrap: break-word
+}
+.button-div a {
+    padding: 16px 36px;
+    background: #F1580C;
+    color: white;
+    border-radius: 50px;
+    margin: 10px;
+}
+.menu-items-container {
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+}
+.button-container-right {
+    display: flex;
+    align-items: center;
+}
+a.no-bg-button{
+    background: none !important;
+    color: #F1580C;
+    border: 1px solid #F1580C;
+}
+a.with-bg-button{
+    padding: 16px 36px;
+    background: #F1580C;
+    color: white;
+    border-radius: 50px;
+}
+
+/********* Home Banner **************/
+section#main-banner {
+    background: url(img/header-banner-bg.png);
+    min-height: 850px;
+    align-items: center;
+    display: flex;
+    background-size: cover;
+
+}
+.text-container-banner h1{
+    color: #252525;
+    font-size: 51px;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 61.20px;
+    margin: 0;
+}
+.text-container-banner p {
+    margin-right: 30%;
+    line-height: 24px;
+}
+.text-content-home-banner {
+    padding-bottom: 27px;
+}
+.text-container-banner {
+    flex: 0 0 57%;
+    padding: 130px 10px 10px;
+    box-sizing: border-box;
+}
+
+.image-container {
+    flex: 0 0 43%; /* 40% width for image container */
+}
+.second-section-content {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.second-section-socials {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 24px;
+    align-items: center;
+}
+.second-section-content p {
+    color: #666666;
+    font-size: 20px;
+}
+.second-section-content-two{
+    padding-top: 84px;
+}
+.second-section-content-two h3{
+    color: #F1580C;
+    font-size: 28px;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 33.60px;
+    margin: 0px;
+}
+.laughing-container {
+    border-radius: 40px;
+    min-height: 593px;
+    background: url(img/unsplash_X1GZqv-F7Tw.jpg);
+    background-size: cover;
+    display: flex;
+    margin-top: 34px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.play-bg {
+    padding: 25px;
+    background: #ffffff5e;
+    border-radius: 74px;
+}
+.second-section-content-three {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-top: 48px;
+}
+.icon-container {
+    padding: 20px;
+}
+.icon-container h3{
+    margin: 17px 0 ;
+    color: #252525;
+    font-size: 28px;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 33.60px;
+}
+.icon-container p{
+    color: #7C7C7C;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 19.20px;
+}
+.social-icons-footer ul li {
+    display: inline-block;
+}
+.first-col-footer.col-footer {
+    flex: 0 0 36%;
+}
+.col-footer {
+    flex: 0 0 24%;
+}
+.first-col-footer h4{
+    color: black;
+    font-size: 20px;
+    font-family: Lato;
+    font-weight: 700;
+    word-wrap: break-word;
+    margin: 0;
+}
+.first-col-footer p{
+    color: black;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 19.20px;
+    margin: 0;
+}
+
+.col-footer h5 {
+    color: #F5793B;
+    font-size: 16px;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 19.20px;
+    word-wrap: break-word;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.col-footer li a{
+    color: #666666;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 600;
+    word-wrap: break-word;
+   
+}
+.col-footer li{
+    padding-bottom: 20px;
+}
+
+.first-col-footer.col-footer img {
+    margin-bottom: 28px;
+}
+.first-col-footer.col-footer h4 {
+    margin-bottom: 12px;
+}
+.social-icons-footer {
+    margin-top: 24px;
+}
+.social-icons-footer li a i {
+    font-size: 20px;
+    color: white;
+}
+
+.social-icons-footer li {
+    padding: 10px 13px;
+    margin: 0px 20px 0px 0px;
+    background: #F1580C;
+    border-radius: 51px;
+    /* width: 42px; */
+}
+section#second-section {
+    padding: 120px 0px;
+}
+.footer-sec{
+    background-color: #F2F2F2;
+    padding: 120px 10px 70px;
+}
+.row.bottom-content {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-top: 1px solid #F1580C;
+    margin-top: 140px;
+    padding-top: 32px;
+}
+.bottom-content p{
+    color: #666666;
+    font-size: 16px;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 19.20px;
+}
+.menu-list-flex ul li {
+    display: inline-flex;
+    list-style: disc !important;
+    margin: 0px 0px 0px 52px;
+}
+.menu-list-flex ul li a {
+    color: #666666;
+    font-size: 16px;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 19.20px;
+}
+.menu-list-flex ul {
+    display: inline-flex;
+    list-style: disc !important;
+}
+
+/* Base styles for all screen sizes */
+
+/* Your existing CSS code here */
+
+/* Media queries for responsiveness */
+
+/* Small screens (e.g., mobile devices) */
+@media screen and (max-width: 768px) {
+   
+    
+}
+div#mobile-menu {
+    display: none;
+}
+/* Medium screens (e.g., tablets) */
+@media screen and (max-width: 1024px) {
+    .buttons-mobile li {
+        padding-bottom: 19%;
+    }
+    .buttons-mobile li a {
+        padding: 20px;
+        border-radius: 50px;
+    }
+    .second-section-socials img {
+        padding-bottom: 31px;
+    }
+    section#second-section {
+        padding: 50px 0px;
+    }
+    .second-section-socials {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .menu-items-container {
+        margin-left: 0;
+    }
+    
+    .row {
+        flex-wrap: wrap;
+    }
+    .image-container img {
+        width: 100%;
+    }
+    .second-section-socials {
+        flex-wrap: wrap;
+    }
+    .row.bottom-content {
+        flex-wrap: wrap;
+    }
+    .text-container-banner h1 {
+        font-size: 40px;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .text-container-banner {
+        flex: 1;
+        text-align: center;
+    }
+    .image-container {
+        flex: 1;
+        margin-top: 23px;
+    }
+    .text-container-banner p {
+        margin: 10px 20px;
+    }
+    .laughing-container {
+        min-height: 190px;
+        margin: 20px;
+    }
+    .play-bg img {
+        width: 100%;
+    }
+    
+    .play-bg {
+        padding: 11px;
+    }
+    .second-section-content-two {
+        padding-top: 20px;
+        text-align: center;
+    }
+    .second-section-content-three {
+        flex-direction: column;
+        text-align: center;
+    }
+    .first-col-footer.col-footer {
+        flex: 1;
+        padding-bottom: 18%;
+        text-align: center;
+    }
+    .menu-list {
+        margin-bottom: 24%;
+    }
+    .row.bottom-content {
+        margin-top: 20px;
+        text-align: center;
+        flex-direction: column;
+    }
+    .menu-list-flex ul li {
+        /* display: contents; */
+        padding: 12px;
+        width: 100%;
+        margin: 0;
+    }
+    .button-div {
+        display: none;
+    }
+
+    .menu-items-container {
+        display: none; /* Hide the menu links on mobile */
+    }
+
+    /* Show mobile menu when mobile-menu-icon is clicked */
+    .mobile-menu {
+        display: none; /* Initially hidden */
+        background-color: white;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.04);
+        padding: 20px;
+        text-align: center;
+    }
+
+    .mobile-menu-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .mobile-menu-list li {
+        margin-bottom: 10px;
+    }
+
+    /* Style for the mobile menu icon */
+    .mobile-menu-icon {
+        display: block;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    .bar {
+        width: 100%;
+        height: 4px;
+        background-color: #252525;
+        margin: 5px 0;
+    }
+    
+}
