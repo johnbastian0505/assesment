@@ -305,6 +305,13 @@ div#mobile-menu {
 }
 /* Medium screens (e.g., tablets) */
 @media screen and (max-width: 1024px) {
+
+    .logo-container {
+        flex: 1;
+    }
+    .nav-class .row {
+        flex-direction: row;
+    }
     .buttons-mobile li {
         padding-bottom: 19%;
     }
@@ -367,8 +374,15 @@ div#mobile-menu {
         padding: 11px;
     }
     .second-section-content-two {
-        padding-top: 20px;
+        padding: 20px;
         text-align: center;
+    }
+    .buttons-mobile li a.no-bg-button {
+        background: #f1580c !important;
+        color: white !important;
+    }
+    .buttons-mobile li:nth-child(2) a {
+        border: 1px solid #f1580c;
     }
     .second-section-content-three {
         flex-direction: column;
@@ -408,16 +422,27 @@ div#mobile-menu {
         box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.04);
         padding: 20px;
         text-align: center;
+        width: 100%;
+    }
+    .buttons-mobile {
+        margin-top: 22%;
     }
 
     .mobile-menu-list {
         list-style: none;
-        padding: 0;
+        padding: 10% 0 0;
         margin: 0;
+    }
+    .buttons-mobile li:first-child {
+        margin-bottom: 7%;
+        /* margin-top: 0% !important; */
+    }
+    .buttons-mobile li {
+        padding: 0 0 30px;
     }
 
     .mobile-menu-list li {
-        margin-bottom: 10px;
+        margin-bottom: 22px;
     }
 
     /* Style for the mobile menu icon */

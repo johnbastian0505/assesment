@@ -11,31 +11,26 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+// JavaScript (script.js)
 document.addEventListener('DOMContentLoaded', function() {
     const popupContainer = document.getElementById('popup-container');
-    const closeButton = document.getElementById('close-button');
     const showPopupButton = document.getElementById('show-popup-button');
-
-    // Function to show the popup
-    function showPopup() {
-        popupContainer.style.display = 'block';
-    }
-
-    // Function to close the popup
-    function closePopup() {
-        popupContainer.style.display = 'none';
-    }
+    const closeButton = document.getElementById('close-button');
 
     // Show the popup when the button is clicked
-    showPopupButton.addEventListener('click', showPopup);
+    showPopupButton.addEventListener('click', function() {
+        popupContainer.style.display = 'block';
+    });
 
     // Close the popup when the close button is clicked
-    closeButton.addEventListener('click', closePopup);
+    closeButton.addEventListener('click', function() {
+        popupContainer.style.display = 'none';
+    });
 
-    // Close the popup when the user clicks anywhere outside the content
+    // Close the popup when the user clicks outside the content
     window.addEventListener('click', function(event) {
         if (event.target === popupContainer) {
-            closePopup();
+            popupContainer.style.display = 'none';
         }
     });
 });
